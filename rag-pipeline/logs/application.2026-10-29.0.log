@@ -1,0 +1,581 @@
+2026-10-29 20:26:35.293 INFO 
+				
+				
+				[main]
+				c.e.r.RagPipelineApplication - Starting RagPipelineApplication using Java 17.0.12 with PID 17192 (D:\Project Development\My-github\rag-demo\rag-pipeline\target\classes started by Vishnu Katpure in D:\Project Development\My-github\rag-demo\rag-pipeline)
+2026-10-29 20:26:35.297 INFO 
+				
+				
+				[main]
+				c.e.r.RagPipelineApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 20:26:35.533 INFO 
+				
+				
+				[background-preinit]
+				o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.5.Final
+2026-10-29 20:26:36.538 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:26:36.543 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:26:36.591 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:26:36.592 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:26:36.595 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:26:36.597 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:26:36.599 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2026-10-29 20:26:36.609 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:26:36.609 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:26:36.627 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:26:36.631 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:26:36.632 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:26:36.634 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:26:36.634 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Elasticsearch repository interfaces.
+2026-10-29 20:26:36.698 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:26:36.700 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-29 20:26:36.849 INFO 
+				
+				
+				[main]
+				o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 137 ms. Found 4 JPA repository interfaces.
+2026-10-29 20:26:37.727 INFO 
+				
+				
+				[main]
+				o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-10-29 20:26:37.751 INFO 
+				
+				
+				[main]
+				o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:26:37.754 INFO 
+				
+				
+				[main]
+				o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-29 20:26:37.759 INFO 
+				
+				
+				[main]
+				o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-29 20:26:37.917 INFO 
+				
+				
+				[main]
+				o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2574 ms
+2026-10-29 20:26:38.213 INFO 
+				
+				
+				[main]
+				org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-29 20:26:38.335 INFO 
+				
+				
+				[main]
+				org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-29 20:26:38.993 INFO 
+				
+				
+				[main]
+				o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-29 20:26:39.049 INFO 
+				
+				
+				[main]
+				com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Starting...
+2026-10-29 20:26:39.292 INFO 
+				
+				
+				[main]
+				com.zaxxer.hikari.pool.HikariPool - PersonHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@129aaac1
+2026-10-29 20:26:39.300 INFO 
+				
+				
+				[main]
+				com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Start completed.
+2026-10-29 20:26:39.422 INFO 
+				
+				
+				[main]
+				o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/demo?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.15
+	Default catalog/schema: demo/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-29 20:26:41.304 INFO 
+				
+				
+				[main]
+				org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-29 20:26:41.429 INFO 
+				
+				
+				[main]
+				o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:26:41.530 INFO 
+				
+				
+				[main]
+				o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-29 20:26:44.265 WARN 
+				
+				
+				[main]
+				o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-29 20:26:44.366 INFO 
+				
+				
+				[main]
+				o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-10-29 20:26:44.367 WARN 
+				
+				
+				[main]
+				o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-10-29 20:26:45.744 INFO 
+				
+				
+				[main]
+				o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:26:45.766 INFO 
+				
+				
+				[main]
+				o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api'
+2026-10-29 20:26:45.787 INFO 
+				
+				
+				[main]
+				c.e.r.RagPipelineApplication - Started RagPipelineApplication in 11.321 seconds (process running for 12.05)
+2026-10-29 20:26:45.794 WARN 
+				
+				
+				[main]
+				o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-29 20:26:45.795 WARN 
+				
+				
+				[main]
+				o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-29 20:28:06.539 INFO 
+				
+				
+				[RMI TCP Connection(4)-10.200.173.245]
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-29 20:28:06.544 INFO 
+				
+				
+				[RMI TCP Connection(4)-10.200.173.245]
+				o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-29 20:28:06.546 INFO 
+				
+				
+				[tomcat-shutdown]
+				o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:28:06.652 INFO 
+				
+				
+				[tomcat-shutdown]
+				o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-29 20:28:06.652 INFO 
+				
+				
+				[RMI TCP Connection(4)-10.200.173.245]
+				o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:28:06.669 INFO 
+				
+				
+				[RMI TCP Connection(4)-10.200.173.245]
+				o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:28:06.674 INFO 
+				
+				
+				[RMI TCP Connection(4)-10.200.173.245]
+				com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Shutdown initiated...
+2026-10-29 20:28:06.685 INFO 
+				
+				
+				[RMI TCP Connection(4)-10.200.173.245]
+				com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Shutdown completed.
+2026-10-29 20:28:18.590 INFO    [main] c.e.r.RagPipelineApplication - Starting RagPipelineApplication using Java 17.0.12 with PID 14344 (D:\Project Development\My-github\rag-demo\rag-pipeline\target\classes started by Vishnu Katpure in D:\Project Development\My-github\rag-demo\rag-pipeline)
+2026-10-29 20:28:18.594 INFO    [main] c.e.r.RagPipelineApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 20:28:18.837 INFO    [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.5.Final
+2026-10-29 20:28:19.833 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:28:19.837 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:28:19.885 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:28:19.887 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:28:19.889 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:28:19.891 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:28:19.892 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2026-10-29 20:28:19.906 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:28:19.907 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:28:19.922 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:28:19.923 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:28:19.924 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:28:19.925 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:28:19.925 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Elasticsearch repository interfaces.
+2026-10-29 20:28:19.971 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:28:19.972 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-29 20:28:20.136 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 154 ms. Found 4 JPA repository interfaces.
+2026-10-29 20:28:21.040 INFO    [main] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-10-29 20:28:21.058 INFO    [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:28:21.063 INFO    [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-29 20:28:21.063 INFO    [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-29 20:28:21.215 INFO    [main] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2559 ms
+2026-10-29 20:28:21.491 INFO    [main] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-29 20:28:21.555 INFO    [main] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-29 20:28:22.187 INFO    [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-29 20:28:22.245 INFO    [main] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Starting...
+2026-10-29 20:28:22.454 INFO    [main] com.zaxxer.hikari.pool.HikariPool - PersonHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f55a864
+2026-10-29 20:28:22.457 INFO    [main] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Start completed.
+2026-10-29 20:28:22.572 INFO    [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/demo?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.15
+	Default catalog/schema: demo/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-29 20:28:24.262 INFO    [main] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-29 20:28:24.374 INFO    [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:28:24.493 INFO    [main] o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-29 20:28:26.692 WARN    [main] o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-29 20:28:26.754 INFO    [main] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-10-29 20:28:26.755 WARN    [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-10-29 20:28:27.979 INFO    [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:28:27.998 INFO    [main] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api'
+2026-10-29 20:28:28.017 INFO    [main] c.e.r.RagPipelineApplication - Started RagPipelineApplication in 10.19 seconds (process running for 10.85)
+2026-10-29 20:28:28.023 WARN    [main] o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-29 20:28:28.023 WARN    [main] o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-29 20:30:59.902 INFO    [RMI TCP Connection(4)-10.200.173.245] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-29 20:30:59.908 INFO    [RMI TCP Connection(4)-10.200.173.245] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-29 20:30:59.909 INFO    [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:31:00.006 INFO    [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-29 20:31:00.008 INFO    [RMI TCP Connection(4)-10.200.173.245] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:31:00.025 INFO    [RMI TCP Connection(4)-10.200.173.245] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:31:00.029 INFO    [RMI TCP Connection(4)-10.200.173.245] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Shutdown initiated...
+2026-10-29 20:31:00.043 INFO    [RMI TCP Connection(4)-10.200.173.245] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Shutdown completed.
+2026-10-29 20:31:32.126 INFO    [main] c.e.r.RagPipelineApplication - Starting RagPipelineApplication using Java 17.0.12 with PID 2256 (D:\Project Development\My-github\rag-demo\rag-pipeline\target\classes started by Vishnu Katpure in D:\Project Development\My-github\rag-demo\rag-pipeline)
+2026-10-29 20:31:32.129 INFO    [main] c.e.r.RagPipelineApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 20:31:32.364 INFO    [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.5.Final
+2026-10-29 20:31:33.334 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:31:33.338 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:31:33.385 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:31:33.387 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:31:33.390 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:31:33.391 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:31:33.392 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2026-10-29 20:31:33.399 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:31:33.402 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:31:33.415 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:31:33.416 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:31:33.416 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:31:33.416 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:31:33.416 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Elasticsearch repository interfaces.
+2026-10-29 20:31:33.463 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:31:33.465 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-29 20:31:33.613 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139 ms. Found 4 JPA repository interfaces.
+2026-10-29 20:31:34.409 INFO    [main] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-10-29 20:31:34.429 INFO    [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:31:34.431 INFO    [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-29 20:31:34.432 INFO    [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-29 20:31:34.556 INFO    [main] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2375 ms
+2026-10-29 20:31:34.815 INFO    [main] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-29 20:31:34.885 INFO    [main] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-29 20:31:35.457 INFO    [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-29 20:31:35.501 INFO    [main] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Starting...
+2026-10-29 20:31:35.711 INFO    [main] com.zaxxer.hikari.pool.HikariPool - PersonHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d2b13f
+2026-10-29 20:31:35.715 INFO    [main] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Start completed.
+2026-10-29 20:31:35.820 INFO    [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/demo?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.15
+	Default catalog/schema: demo/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-29 20:31:37.474 INFO    [main] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-29 20:31:37.593 INFO    [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:31:37.698 INFO    [main] o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-29 20:31:39.816 WARN    [main] o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-29 20:31:39.880 INFO    [main] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-10-29 20:31:39.882 WARN    [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-10-29 20:31:41.131 INFO    [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:31:41.147 INFO    [main] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api'
+2026-10-29 20:31:41.158 INFO    [main] c.e.r.RagPipelineApplication - Started RagPipelineApplication in 9.801 seconds (process running for 10.546)
+2026-10-29 20:31:41.162 WARN    [main] o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-29 20:31:41.162 WARN    [main] o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-29 20:31:57.313 INFO    [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-29 20:31:57.313 INFO    [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-29 20:31:57.318 INFO    [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-10-29 20:40:59.668 INFO    [RMI TCP Connection(12)-10.200.173.245] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-29 20:40:59.677 INFO    [RMI TCP Connection(12)-10.200.173.245] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-29 20:40:59.679 INFO    [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:40:59.789 INFO    [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-29 20:40:59.791 INFO    [RMI TCP Connection(12)-10.200.173.245] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:40:59.809 INFO    [RMI TCP Connection(12)-10.200.173.245] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:40:59.813 INFO    [RMI TCP Connection(12)-10.200.173.245] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Shutdown initiated...
+2026-10-29 20:40:59.830 INFO    [RMI TCP Connection(12)-10.200.173.245] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Shutdown completed.
+2026-10-29 20:41:26.118 INFO    [main] c.e.r.RagPipelineApplication - Starting RagPipelineApplication using Java 17.0.12 with PID 9576 (D:\Project Development\My-github\rag-demo\rag-pipeline\target\classes started by Vishnu Katpure in D:\Project Development\My-github\rag-demo\rag-pipeline)
+2026-10-29 20:41:26.120 INFO    [main] c.e.r.RagPipelineApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 20:41:26.356 INFO    [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.5.Final
+2026-10-29 20:41:27.397 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:41:27.400 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:41:27.443 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:41:27.446 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:41:27.449 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:41:27.450 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:41:27.451 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2026-10-29 20:41:27.462 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:41:27.463 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:41:27.474 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:41:27.474 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:41:27.475 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:41:27.476 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:41:27.476 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Elasticsearch repository interfaces.
+2026-10-29 20:41:27.522 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:41:27.524 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-29 20:41:27.667 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 136 ms. Found 4 JPA repository interfaces.
+2026-10-29 20:41:28.562 INFO    [main] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-10-29 20:41:28.582 INFO    [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:41:28.585 INFO    [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-29 20:41:28.590 INFO    [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-29 20:41:28.749 INFO    [main] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2580 ms
+2026-10-29 20:41:29.039 INFO    [main] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-29 20:41:29.129 INFO    [main] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-29 20:41:29.788 INFO    [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-29 20:41:29.835 INFO    [main] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Starting...
+2026-10-29 20:41:30.049 INFO    [main] com.zaxxer.hikari.pool.HikariPool - PersonHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1be427b4
+2026-10-29 20:41:30.056 INFO    [main] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Start completed.
+2026-10-29 20:41:30.180 INFO    [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/demo?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.15
+	Default catalog/schema: demo/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-29 20:41:31.988 INFO    [main] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-29 20:41:32.126 INFO    [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:41:32.243 INFO    [main] o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-29 20:41:34.773 WARN    [main] o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-29 20:41:34.837 INFO    [main] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-10-29 20:41:34.838 WARN    [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-10-29 20:41:36.162 INFO    [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:41:36.220 INFO    [main] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api'
+2026-10-29 20:41:36.231 INFO    [main] c.e.r.RagPipelineApplication - Started RagPipelineApplication in 10.948 seconds (process running for 11.749)
+2026-10-29 20:41:36.235 WARN    [main] o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-29 20:41:36.235 WARN    [main] o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-29 20:42:50.707 INFO    [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-29 20:42:50.707 INFO    [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-29 20:42:50.719 INFO    [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2026-10-29 20:45:16.826 INFO    [RMI TCP Connection(5)-10.200.173.245] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-29 20:45:16.834 INFO    [RMI TCP Connection(5)-10.200.173.245] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-29 20:45:16.836 INFO    [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:45:16.968 INFO    [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-29 20:45:16.969 INFO    [RMI TCP Connection(5)-10.200.173.245] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:45:16.984 INFO    [RMI TCP Connection(5)-10.200.173.245] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:45:16.988 INFO    [RMI TCP Connection(5)-10.200.173.245] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Shutdown initiated...
+2026-10-29 20:45:16.998 INFO    [RMI TCP Connection(5)-10.200.173.245] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Shutdown completed.
+2026-10-29 20:45:37.341 INFO    [main] c.e.r.RagPipelineApplication - Starting RagPipelineApplication using Java 17.0.12 with PID 4088 (D:\Project Development\My-github\rag-demo\rag-pipeline\target\classes started by Vishnu Katpure in D:\Project Development\My-github\rag-demo\rag-pipeline)
+2026-10-29 20:45:37.344 INFO    [main] c.e.r.RagPipelineApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 20:45:37.593 INFO    [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.5.Final
+2026-10-29 20:45:38.528 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:45:38.531 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:45:38.579 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:45:38.581 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:45:38.582 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:45:38.584 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:45:38.586 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2026-10-29 20:45:38.593 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:45:38.594 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:45:38.604 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:45:38.605 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:45:38.606 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:45:38.606 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:45:38.607 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Elasticsearch repository interfaces.
+2026-10-29 20:45:38.649 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:45:38.651 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-29 20:45:38.793 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135 ms. Found 4 JPA repository interfaces.
+2026-10-29 20:45:39.575 INFO    [main] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-10-29 20:45:39.592 INFO    [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:45:39.598 INFO    [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-29 20:45:39.599 INFO    [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-29 20:45:39.740 INFO    [main] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2346 ms
+2026-10-29 20:45:40.011 INFO    [main] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-29 20:45:40.079 INFO    [main] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-29 20:45:40.619 INFO    [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-29 20:45:40.662 INFO    [main] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Starting...
+2026-10-29 20:45:40.887 INFO    [main] com.zaxxer.hikari.pool.HikariPool - PersonHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fc8047f
+2026-10-29 20:45:40.892 INFO    [main] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Start completed.
+2026-10-29 20:45:41.011 INFO    [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/demo?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.15
+	Default catalog/schema: demo/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-29 20:45:42.615 INFO    [main] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-29 20:45:42.785 INFO    [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:45:42.895 INFO    [main] o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-29 20:45:45.251 WARN    [main] o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-29 20:45:45.310 INFO    [main] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-10-29 20:45:45.311 WARN    [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-10-29 20:45:46.619 INFO    [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:45:46.634 INFO    [main] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api'
+2026-10-29 20:45:46.646 INFO    [main] c.e.r.RagPipelineApplication - Started RagPipelineApplication in 10.086 seconds (process running for 10.799)
+2026-10-29 20:45:46.650 WARN    [main] o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-29 20:45:46.650 WARN    [main] o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-29 20:45:53.470 INFO    [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-29 20:45:53.472 INFO    [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-29 20:45:53.478 INFO    [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2026-10-29 20:48:49.788 INFO    [RMI TCP Connection(4)-10.200.173.245] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-29 20:48:49.793 INFO    [RMI TCP Connection(4)-10.200.173.245] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-29 20:48:49.794 INFO    [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:48:49.904 INFO    [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-29 20:48:49.905 INFO    [RMI TCP Connection(4)-10.200.173.245] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:48:49.919 INFO    [RMI TCP Connection(4)-10.200.173.245] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:48:49.923 INFO    [RMI TCP Connection(4)-10.200.173.245] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Shutdown initiated...
+2026-10-29 20:48:49.933 INFO    [RMI TCP Connection(4)-10.200.173.245] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Shutdown completed.
+2026-10-29 20:49:07.537 INFO    [main] c.e.r.RagPipelineApplication - Starting RagPipelineApplication using Java 17.0.12 with PID 24132 (D:\Project Development\My-github\rag-demo\rag-pipeline\target\classes started by Vishnu Katpure in D:\Project Development\My-github\rag-demo\rag-pipeline)
+2026-10-29 20:49:07.540 INFO    [main] c.e.r.RagPipelineApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 20:49:07.792 INFO    [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.5.Final
+2026-10-29 20:49:08.740 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:49:08.744 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:49:08.788 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:49:08.790 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:49:08.792 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:49:08.793 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2026-10-29 20:49:08.796 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2026-10-29 20:49:08.803 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:49:08.803 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2026-10-29 20:49:08.814 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.AuthoritiesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:49:08.815 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.FileRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:49:08.815 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.RolesRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:49:08.816 INFO    [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.rag_pipeline.repository.UserRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2026-10-29 20:49:08.816 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Elasticsearch repository interfaces.
+2026-10-29 20:49:08.853 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-29 20:49:08.855 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-29 20:49:09.002 INFO    [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142 ms. Found 4 JPA repository interfaces.
+2026-10-29 20:49:09.834 INFO    [main] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-10-29 20:49:09.854 INFO    [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:49:09.858 INFO    [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-29 20:49:09.859 INFO    [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-29 20:49:10.000 INFO    [main] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2411 ms
+2026-10-29 20:49:10.263 INFO    [main] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-29 20:49:10.326 INFO    [main] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-29 20:49:10.896 INFO    [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-29 20:49:10.938 INFO    [main] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Starting...
+2026-10-29 20:49:11.152 INFO    [main] com.zaxxer.hikari.pool.HikariPool - PersonHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2911db81
+2026-10-29 20:49:11.154 INFO    [main] com.zaxxer.hikari.HikariDataSource - PersonHikariPool - Start completed.
+2026-10-29 20:49:11.258 INFO    [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/demo?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.15
+	Default catalog/schema: demo/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-29 20:49:12.926 INFO    [main] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-29 20:49:13.036 INFO    [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:49:13.154 INFO    [main] o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-29 20:49:15.447 WARN    [main] o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-29 20:49:15.509 INFO    [main] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-10-29 20:49:15.511 WARN    [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-10-29 20:49:16.766 INFO    [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-10-29 20:49:16.780 INFO    [main] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api'
+2026-10-29 20:49:16.792 INFO    [main] c.e.r.RagPipelineApplication - Started RagPipelineApplication in 10.037 seconds (process running for 10.718)
+2026-10-29 20:49:16.796 WARN    [main] o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-29 20:49:16.797 WARN    [main] o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-29 20:49:33.158 INFO    [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-29 20:49:33.158 INFO    [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-29 20:49:33.163 INFO    [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2026-10-29 20:53:17.774 WARN    [PersonHikariPool:housekeeper] com.zaxxer.hikari.pool.HikariPool - PersonHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m6s468ms809µs400ns).

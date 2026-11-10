@@ -1,0 +1,88 @@
+<configuration>
+
+	<!-- Console -->
+	<appender name="CONSOLE"
+		class="ch.qos.logback.core.ConsoleAppender">
+
+		<encoder>
+			<pattern>
+				%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %replace([user=%X{userName}]){'\[user=\]',''} %replace([correlationId=%X{correlationId}]){'\[correlationId=\]',''} [%thread] %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+
+	</appender>
+
+
+	<!-- Application File -->
+	<appender name="APPLICATION_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+		<file>logs/application.log</file>
+
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+
+			<fileNamePattern>
+				logs/application.%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+
+			<maxFileSize>10MB</maxFileSize>
+			<maxHistory>30</maxHistory>
+			<totalSizeCap>1GB</totalSizeCap>
+
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>
+				%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %replace([user=%X{userName}]){'\[user=\]',''} %replace([correlationId=%X{correlationId}]){'\[correlationId=\]',''} [%thread] %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+
+	</appender>
+
+
+	<!-- Access Log File -->
+	<appender name="ACCESS_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+		<file>logs/access.log</file>
+
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+
+			<fileNamePattern>
+				logs/access.%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+
+			<maxFileSize>10MB</maxFileSize>
+			<maxHistory>30</maxHistory>
+			<totalSizeCap>1GB</totalSizeCap>
+
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>
+				%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %replace([user=%X{userName}]){'\[user=\]',''} %replace([correlationId=%X{correlationId}]){'\[correlationId=\]',''} %msg%n
+			</pattern>
+		</encoder>
+
+	</appender>
+
+
+	<!-- Access Logger -->
+	<logger name="ACCESS_LOG" level="INFO" additivity="false">
+
+		<appender-ref ref="ACCESS_FILE" />
+
+	</logger>
+
+
+	<!-- Root -->
+	<root level="INFO">
+
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="APPLICATION_FILE" />
+
+	</root>
+
+</configuration>

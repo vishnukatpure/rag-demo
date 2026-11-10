@@ -1,0 +1,14 @@
+/target/
+/**/.settings/
+/bin/
+/.settings/
+
+/microservice-producer/log/
+/microservice-producer/logs/
+/microservice-producer/target/
+/microservice-producer/target/bin/
+
+/microservice-notification-consumer/log/
+/microservice-notification-consumer/logs/
+/microservice-notification-consumer/target/
+/microservice-notification-consumer/bin/

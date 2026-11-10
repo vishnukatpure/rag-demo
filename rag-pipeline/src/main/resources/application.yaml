@@ -1,0 +1,87 @@
+spring:
+    application:
+        name: rag-pipeline
+    lifecycle:
+        # Maximum time allowed for ongoing requests/tasks to complete
+        timeout-per-shutdown-phase: 30s
+    datasource:
+        url: ${DB_URL:jdbc:mysql://localhost:3306/rag_demo?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC}
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        # Its Default Configuration this can be changed based on requirement
+        hikari:
+            pool-name: PersonHikariPool
+            maximum-pool-size: 10
+            minimum-idle: 10
+            connection-timeout: 30000 # 30 Sec
+            idle-timeout: 600000 # 10 min
+            max-lifetime: 1800000 #30 min
+            validation-timeout: 5000 #5 Sec
+            leak-detection-threshold: 60000 #60 sec
+    servlet:
+        multipart:
+            max-file-size: 20MB
+            max-request-size: 20MB
+    jpa:
+        # database-platform: org.hibernate.dialect.MySQLDialect
+        # Hide/ show query
+        show-sql: false
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                "[format_sql]": false
+                "[show_sql]": false
+    #Elasticsearch
+    elasticsearch:
+        uris: http://localhost:9200
+
+    ai:
+        # OpenAI configuration (set OPENAI_API_KEY if you switch to the OpenAI starter)
+        #openai:
+        #api-key: ${OPENAI_API_KEY:}
+        #chat:
+        #model: gpt-4o-mini
+        #embedding:
+        #model: text-embedding-3-small
+        # Local Ollama configuration
+        ollama:
+            base-url: http://localhost:11434
+            chat:
+                model: llama3.2:1b
+                num-predict: 1024
+                temperature: 0.0
+            embedding:
+                model: nomic-embed-text
+        vectorstore:
+            elasticsearch:
+                initialize-schema: true
+                index-name: rag-documents-ollama
+                dimensions: 768
+                similarity: cosine
+
+server:
+    port: 8081
+    # Gracefully complete in-flight HTTP requests before shutting down
+    shutdown: graceful
+    servlet:
+        context-path: /api
+
+app:
+    jwt:
+        secret: ${JWT_SECRET:=======================Spring=Security==========================}
+        expiration-seconds: ${JWT_EXPIRATION_SECONDS:300}
+        encryption:
+            # Keep default "secret" so existing encrypted DB values still decrypt (SecurityUtil unchanged).
+            secret-key: ${ENCRYPTION_SECRET_KEY:secret}
+
+logging:
+    level:
+        "[org.springframework.security]": INFO
+        "[org.springframework.web]": INFO
+info:
+    app:
+        name: RAG Pipeline
+        version: 1.0.0
+        description: RAG Pipeline
