@@ -3,10 +3,10 @@
 /bin/
 /.settings/
 
-/rag-pipeline/log/
-/rag-pipeline/logs/
-/rag-pipeline/target/
-/rag-pipeline/target/bin/
-/rag-pipeline/.settings/
-/rag-pipeline/.mvn/
+/backend/log/
+/backend/logs/
+/backend/target/
+/backend/target/bin/
+/backend/.settings/
+/backend/.mvn/
 
