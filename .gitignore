@@ -3,12 +3,10 @@
 /bin/
 /.settings/
 
-/microservice-producer/log/
-/microservice-producer/logs/
-/microservice-producer/target/
-/microservice-producer/target/bin/
+/rag-pipeline/log/
+/rag-pipeline/logs/
+/rag-pipeline/target/
+/rag-pipeline/target/bin/
+/rag-pipeline/.settings/
+/rag-pipeline/.mvn/
 
-/microservice-notification-consumer/log/
-/microservice-notification-consumer/logs/
-/microservice-notification-consumer/target/
-/microservice-notification-consumer/bin/
