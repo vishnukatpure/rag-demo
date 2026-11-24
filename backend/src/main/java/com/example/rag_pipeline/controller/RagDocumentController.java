@@ -57,7 +57,7 @@ public class RagDocumentController extends GenericService {
 			size = 50;
 		}
 		Pageable pageable = PageRequest.of(page, size);
-		Page<RagData> pageData = ragDataService.getAll(pageable);
+		Page<RagData> pageData = ragDataService.getByUser(pageable, getLoggedInUser());
 		Page<RagDataDTO> dtoData = pageData.map(person -> getMapper().map(person, RagDataDTO.class));
 
 		return ResponseEntity.ok(dtoData);
@@ -85,7 +85,7 @@ public class RagDocumentController extends GenericService {
 			return ResponseEntity.status(401).body(Map.of("error", "User is not authenticated."));
 		}
 
-		RagData ragData = ragDataService.saveFile(file);
+		RagData ragData = ragDataService.saveFile(file, getLoggedInUser());
 		ResponseEntity<?> result = ragDocumentService.uploadDocument(file, filename, user.getId(), ragData.getId());
 		return result;
 	}
@@ -101,7 +101,7 @@ public class RagDocumentController extends GenericService {
 			return ResponseEntity.status(401).body(Map.of("error", "User is not authenticated."));
 		}
 
-		RagData ragData = ragDataService.saveText(request.info());
+		RagData ragData = ragDataService.saveText(request.info(), getLoggedInUser());
 		ResponseEntity<?> result = ragDocumentService.addText(request.info(), user.getId(), ragData.getId());
 		return result;
 	}

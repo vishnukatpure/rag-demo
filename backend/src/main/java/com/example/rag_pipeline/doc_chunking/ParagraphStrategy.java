@@ -4,10 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.ai.document.Document;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ParagraphChunkingStrategy implements ChunkingStrategy {
+@Primary
+public class ParagraphStrategy implements ChunkingStrategy {
 
 	@Override
 	public List<Document> apply(List<Document> documents) {

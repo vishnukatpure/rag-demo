@@ -11,6 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.example.rag_pipeline.model.FileEntity;
 import com.example.rag_pipeline.model.RagData;
 import com.example.rag_pipeline.model.TextEntity;
+import com.example.rag_pipeline.model.User;
 import com.example.rag_pipeline.repository.RagDataRepository;
 import com.example.rag_pipeline.repository.TextEntityRepository;
 
@@ -30,19 +31,21 @@ public class RagDataService {
 		this.textEntityRepository = textEntityRepository;
 	}
 
-	public RagData saveFile(MultipartFile file) throws IOException {
+	public RagData saveFile(MultipartFile file, User user) throws IOException {
 		FileEntity fileEntity = fileEntityService.uploadFile(file);
 		RagData data = new RagData();
 		data.setFileEntity(fileEntity);
+		data.setUser(user);
 		return ragDataRepository.save(data);
 	}
 
-	public RagData saveText(String info) {
+	public RagData saveText(String info, User user) {
 		TextEntity entity = new TextEntity();
 		entity.setTextData(info);
 		entity = textEntityRepository.save(entity);
 
 		RagData data = new RagData();
+		data.setUser(new User().id(user.getId()));
 		data.setTextEntity(entity);
 		return ragDataRepository.save(data);
 	}
@@ -64,5 +67,9 @@ public class RagDataService {
 
 	public Page<RagData> getAll(Pageable pageable) {
 		return ragDataRepository.findAll(pageable);
+	}
+
+	public Page<RagData> getByUser(Pageable pageable, User loggedInUser) {
+		return ragDataRepository.findByUser(loggedInUser, pageable);
 	}
 }

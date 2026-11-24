@@ -22,6 +22,7 @@ public class SecurityConfig {
 	@Bean
 	SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
+		http.cors(Customizer.withDefaults());
 		http.authorizeHttpRequests(auth -> auth
 
 				.requestMatchers("/non-secured/**", "/swagger-ui/**", "/swagger-ui.html", "/v3/api-docs/**",

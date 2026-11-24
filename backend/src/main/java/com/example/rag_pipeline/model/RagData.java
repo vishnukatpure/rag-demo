@@ -2,6 +2,9 @@ package com.example.rag_pipeline.model;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
@@ -20,6 +23,10 @@ public class RagData extends EntityBase {
 	@OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
 	private TextEntity textEntity;
 
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "user_id")
+	private User user;
+
 	public FileEntity getFileEntity() {
 		return fileEntity;
 	}
@@ -34,6 +41,14 @@ public class RagData extends EntityBase {
 
 	public void setTextEntity(TextEntity textEntity) {
 		this.textEntity = textEntity;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 	public static long getSerialversionuid() {

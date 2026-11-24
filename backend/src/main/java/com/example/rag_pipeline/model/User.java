@@ -134,4 +134,8 @@ public class User extends EntityBase implements UserDetails {
 		this.credentialsNonExpired = credentialsNonExpired;
 	}
 
+	public User id(Long id) {
+		setId(id);
+		return this;
+	}
 }

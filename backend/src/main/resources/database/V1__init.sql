@@ -112,15 +112,20 @@ CREATE TABLE `rag_data` (
 	`updated_date` DATETIME(6) NOT NULL,
 	`file_entity_id` BIGINT(20) NULL DEFAULT NULL,
 	`text_entity_id` BIGINT(20) NULL DEFAULT NULL,
+	`user_id` BIGINT(20) NULL DEFAULT NULL,
 	PRIMARY KEY (`id`),
 	UNIQUE INDEX `UKdt32vr4g8pcjcgfokcqyynsy8` (`file_entity_id`),
 	UNIQUE INDEX `UKn4v4gga01tpor7vk88bnrrnlp` (`text_entity_id`),
+	INDEX `FKiy8ogpyij7u7pnlys1arg1iao` (`user_id`),
 	CONSTRAINT `FKbiwgmxuylw3mgixiikjwtc96g` FOREIGN KEY (`text_entity_id`) REFERENCES `text_data` (`id`),
-	CONSTRAINT `FKcjqm4236so22280mkyfuq4bcf` FOREIGN KEY (`file_entity_id`) REFERENCES `files` (`id`)
+	CONSTRAINT `FKcjqm4236so22280mkyfuq4bcf` FOREIGN KEY (`file_entity_id`) REFERENCES `files` (`id`),
+	CONSTRAINT `FKiy8ogpyij7u7pnlys1arg1iao` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
 )
 COLLATE='utf8mb4_0900_ai_ci'
 ENGINE=InnoDB
+AUTO_INCREMENT=3
 ;
+
 
 
 INSERT INTO `users` VALUES (1,NULL,NOW(),NULL,NOW(),1,1,1,'testt01021990@gmail.com',1,NULL,NULL,'$2a$10$hbxecwitQQ.dDT4JOFzQAulNySFwEpaFLw38jda6Td.Y/cOiRzDFu',NULL,"testt01021990@gmail.com");

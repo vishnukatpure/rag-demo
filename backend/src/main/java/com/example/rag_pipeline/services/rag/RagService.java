@@ -36,6 +36,7 @@ public class RagService {
 		long retrievalStart = System.currentTimeMillis();
 
 		SearchRequest.Builder searchRequestBuilder = SearchRequest.builder().query(question).topK(10);
+
 		String userId = currentUserId();
 		if (userId != null) {
 			searchRequestBuilder.filterExpression("userId == '" + userId + "'");

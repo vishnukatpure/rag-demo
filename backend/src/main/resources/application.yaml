@@ -13,7 +13,7 @@ spring:
         hikari:
             pool-name: PersonHikariPool
             maximum-pool-size: 10
-            minimum-idle: 10
+            minimum-idle: 2
             connection-timeout: 30000 # 30 Sec
             idle-timeout: 600000 # 10 min
             max-lifetime: 1800000 #30 min
@@ -36,7 +36,10 @@ spring:
     #Elasticsearch
     elasticsearch:
         uris: http://localhost:9200
-
+    data:
+        elasticsearch:
+            repositories:
+                enabled: false
     ai:
         # OpenAI configuration (set OPENAI_API_KEY if you switch to the OpenAI starter)
         #openai:
@@ -52,6 +55,8 @@ spring:
                 model: llama3.2:1b
                 num-predict: 1024
                 temperature: 0.0
+                top_k: 1
+                top_p: 20 
             embedding:
                 model: nomic-embed-text
         vectorstore:
@@ -78,8 +83,8 @@ app:
 
 logging:
     level:
-        "[org.springframework.security]": INFO
-        "[org.springframework.web]": INFO
+        "[org.springframework.security]": DEBUG
+        "[org.springframework.web]": DEBUG
 info:
     app:
         name: RAG Pipeline
